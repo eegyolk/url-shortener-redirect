@@ -1,0 +1,22 @@
+{
+  "name": "url-shortener-redirect",
+  "version": "1.0.0",
+  "description": "URL Shortener components where the redirection happens",
+  "main": "index.js",
+  "repository": "git@github.com:eegyolk/url-shortener-redirect.git",
+  "author": "Edgardo Guzman Jr <eegyolk@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "dependencies": {
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "objection": "^3.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
